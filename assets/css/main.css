@@ -1,0 +1,43 @@
+.ufes-color {
+    background-color: #0099CC !important;
+}
+
+.blur-bg {
+    background: rgba(243, 243, 243, .3) !important;
+    backdrop-filter: blur(10px);
+}
+
+.fa-bars:hover {
+    color: #5c636a !important;
+    transition: 0.3s;
+}
+
+.fa-bars {
+    transition: 0.3s;
+}
+
+.responsiveCal {
+
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+
+}
+
+.responsiveCal iframe {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+#hide-calendar {
+    position: relative;
+    height: 20px;
+    top: 20px;
+    background-color: white;
+}
